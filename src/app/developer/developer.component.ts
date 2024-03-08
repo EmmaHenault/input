@@ -11,7 +11,7 @@ import { SkillsComponent } from '../skills/skills.component';
   styleUrl: './developer.component.scss'
 })
 export class DeveloperComponent {
-  @Input() developer: Developer = {
+  developer: Developer = {
     lastName: 'Doe',
     firstName: 'John',
     age: 27,

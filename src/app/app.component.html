@@ -1,1 +1,8 @@
+<ng-container *ngFor="let color of colors">
+	<app-bouton [color]="color"></app-bouton>
+</ng-container>
 <app-developer></app-developer>
+
+<ng-container *ngFor="let name of names">
+	<app-output-bouton (isClick)="buttonName($event)"[name]="name"></app-output-bouton>
+</ng-container>
